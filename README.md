@@ -1,3 +1,6 @@
+# DEPRECATED
+## This repo is no longer maintained.<br>For a list of current demos, please visit:<br>https://gitlab.com/cumulus-consulting/goldenturtle/<br><br><br>
+
 # cldemo-evpn-symmetric
 
 This demo shows one approach of running VXLAN Routing with EVPN.  It uses the distributed architecture with symmetric IRB model. (Note Cumulus supports asymmetric model as well).  Using this technique employs the VXLAN Routing directly on the ToR, using EVPN for both VLAN/VXLAN bridging as well as VXLAN and external routing.  

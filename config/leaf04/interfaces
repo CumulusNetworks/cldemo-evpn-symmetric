@@ -77,6 +77,7 @@ iface peerlink.4094
 auto bond03
 iface bond03
   mtu 9000
+  bond-lacp-bypass-allow yes
   bond-slaves swp1
   bridge-access 13
   clag-id 3
@@ -85,6 +86,7 @@ iface bond03
 auto bond04
 iface bond04
   mtu 9000
+  bond-lacp-bypass-allow yes
   bond-slaves swp2
   bridge-access 24
   clag-id 4
